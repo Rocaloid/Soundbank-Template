@@ -1,0 +1,36 @@
+{
+    "Entries" :
+    [
+        {
+            "Wildcard" : "*",
+            "Inherit" : "none",
+            
+            "LDecay_F0" : 240,
+            "LDecay_Sensitivity" : 0.02,
+            "LDecay_Center" : 4000,
+            "LDecay_Bound" : 9000,
+            "HDecay_F0" : 400,
+            "HDecay_Sensitivity" : -0.002,
+            "HDecay_Center" : 10000,
+            "HDecay_Bound" : 20000,
+            
+            "HmncCurve" : [700, 0.0,
+                           360, 0.0,
+                           260, 0.0,
+                           150, -1.0,
+                           0.0, -2.0],
+            "NoizCurve" : [700, -0.5,
+                           300, 0.0,
+                           200, -0.3,
+                           150, -0.8,
+                           0.0, -2.0],
+            "PhseCurve" : [700, 1.7,
+                           360, 1.0,
+                           260, 1.0,
+                           200, 0.5,
+                           150, 0.2,
+                           0.0, 0.0]
+        }
+    ]
+}
+
